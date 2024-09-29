@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_09_26_144723) do
+ActiveRecord::Schema[7.1].define(version: 2024_09_29_124417) do
   create_table "unesco_sites", force: :cascade do |t|
     t.string "name"
     t.string "wiki_url"
     t.text "short_description"
-    t.integer "latitude"
-    t.integer "longitude"
+    t.float "latitude"
+    t.float "longitude"
     t.date "date_added"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
