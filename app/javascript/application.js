@@ -4,7 +4,3 @@ import "controllers"
 import "bootstrap"
 import "@popperjs/core"
 import "./components"
-import 'bootstrap/dist/css/bootstrap';
-import './add_jquery'
-import $ from 'jquery';
-window.jQuery = $;

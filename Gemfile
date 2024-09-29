@@ -72,5 +72,3 @@ gem "bootstrap", "~> 5.2"
 gem "font-awesome-sass", "~> 6.1"
 gem "sassc-rails"
 gem "sass-rails"
-gem 'jquery-rails'
-gem 'turbolinks'
