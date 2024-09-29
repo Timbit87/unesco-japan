@@ -9,3 +9,5 @@ pin "@popperjs/core", to: "popper.js", preload: true
 pin_all_from "app/javascript/controllers", under: "controllers"
 pin "mapbox-gl" # @3.1.2
 pin "process" # @2.0.1
+pin "jquery", to: "jquery/dist/jquery.js"
+pin "bootstrap", to: "bootstrap/dist/js/bootstrap.bundle.min.js"

@@ -1,0 +1,2 @@
+class UnescoSite < ApplicationRecord
+end

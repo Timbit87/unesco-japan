@@ -1,0 +1,2 @@
+class UnescoSitesController < ApplicationController
+end
