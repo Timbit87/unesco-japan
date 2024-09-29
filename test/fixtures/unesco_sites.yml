@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  wiki_url: MyString
+  short_description: MyText
+  latitude: 1
+  longitude: 1
+  date_added: 2024-09-26
+
+two:
+  name: MyString
+  wiki_url: MyString
+  short_description: MyText
+  latitude: 1
+  longitude: 1
+  date_added: 2024-09-26
