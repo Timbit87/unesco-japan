@@ -1,24 +1,5 @@
-# README
+This will be an app for searching and reading about all of the UNESCO world heritage sites in Japan.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I will be using mapbox for the mapping and react to build the front end of the application as I've not used react before.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Back end will still be handled by rails as I'm familiar with rails.
