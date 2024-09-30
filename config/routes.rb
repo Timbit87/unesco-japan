@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   root 'homepage#index'
+  resources :unesco_sites
 end
