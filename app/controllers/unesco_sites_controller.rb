@@ -17,6 +17,6 @@ class UnescoSitesController < ApplicationController
   end
 
   def unesco_sites_params
-    params.require(:unesco_site).permit()
+    params.require(:unesco_site).permit(:name, :wiki_url, :short_description, :latitude, :longitude, :date_added)
   end
 end
