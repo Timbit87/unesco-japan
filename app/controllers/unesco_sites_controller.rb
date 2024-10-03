@@ -2,8 +2,17 @@ class UnescoSitesController < ApplicationController
   before_action :set_unesco_site
 
   def index
-    @unesco_sites = Unesco_sites.all
+    @unesco_sites = Unesco_site.all
     render json: @unesco_sites
+  end
+
+  def create
+    unesco_site = Unesco_site.create!(unesco_sites_params)
+    if unesco_site
+      render json: unesco_site
+    else
+      render json: unesco_site.errors
+    end
   end
 
   def show
